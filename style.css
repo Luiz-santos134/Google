@@ -1,0 +1,51 @@
+body{
+    background-color: white;
+}
+ul{
+    list-style: none;
+}
+
+#botao{
+    background-color: rgb(20, 110, 207);
+    border: none;
+    color: white;
+    font-style: arial;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#pesquisar{
+    position: absolute;
+    background-color: white;
+    top: 40%;
+    left: 35%;
+    width: 610px;
+    height: 35px;
+    border-radius: 50px;
+    border: 1.8px solid rgba(128, 128, 128, 0.371);
+    padding: 5px 20px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgba(57, 56, 56, 0.549);
+}
+
+#pesquisar:hover{
+    box-shadow: 0px 1px 6px 1px rgba(87, 86, 86, 0.371);
+}
+
+#google{
+    position: absolute;
+    top: 25%;
+    left: 45%;
+}
+
+#gmail{
+    color: rgb(54, 67, 208);
+}
